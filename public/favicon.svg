@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Elite">
+  <rect width="32" height="32" fill="#F5F0E8"/>
+  <g fill="#2B211C">
+    <!-- Acute accent -->
+    <polygon points="18.2,3.2 24.6,3.2 21.4,7.8 15,7.8"/>
+    <!-- É stem + three bars, optically centered under the accent -->
+    <path d="M7.2 9.2h17.2v3.05H10.5v2.55h11.4v2.7H10.5v2.7h13.9V23H7.2z"/>
+  </g>
+</svg>
