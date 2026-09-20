@@ -18,6 +18,12 @@ import { dirname, join } from "node:path";
 import pg from "pg";
 import { pendingMigrations } from "./migration-plan.mjs";
 
+try {
+  process.loadEnvFile?.();
+} catch {
+  // .env file might not exist in production / CI environments
+}
+
 const databaseUrl = process.env.DATABASE_URL;
 if (!databaseUrl) {
   console.log(

@@ -2,7 +2,7 @@ import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
 import { getSql } from "@/lib/db";
 import { authMiddleware } from "@/lib/auth/middleware";
-import { asNumber, parseJson } from "@/lib/utils";
+import { asNumber } from "@/lib/utils";
 import { isOrderStatus } from "@/lib/format";
 import { mapCategory, mapCustomer, mapOrderItem, mapPayment, mapProduct } from "@/lib/server/mappers";
 import type { Order } from "@/lib/types";

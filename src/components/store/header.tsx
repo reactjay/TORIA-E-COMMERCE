@@ -3,7 +3,6 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, Search, ShoppingBag, X } from "lucide-react";
 import { Logo } from "@/components/store/logo";
 import { cartCount, useCartStore } from "@/lib/cart-store";
-import { cn } from "@/lib/utils";
 import type { Category } from "@/lib/types";
 
 const NAV = [
